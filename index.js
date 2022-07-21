@@ -1,3 +1,7 @@
+// Interagindo com o o Aplicativo
+// Sobre process.stdout e srdin
+
+
 const questions = [
     "O que aprendi hoje? 1",
     "O que aprendi hoje? 2",
