@@ -1,36 +1,15 @@
 <!DOCTYPE html>
-    <head>
-        <title>Construindo com EJS</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
-
-        <style>
-            body {
-                padding-top: 50px;
-            }
-        </style>
-
-    </head>
-
+    <%- include('head'); %>
     <body class="container">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="/">EJS</a>
-            </nav>
-        </header>
-
+        <%- include('header'); %>
         <main>
             <div class="jumbotron">
                 <H1>Node com EJS</H1>
                 <p>Vamos apreder a trabalhar com arquivos EJS</p>
             </div>
         </main>
-
-        <footer>
-            <p class="text-center text-muted">Feito com Amor por By Celso</p>
-        </footer>
-
+        <%- include('footer'); %>
     </body>
-
 
 </html>
 
